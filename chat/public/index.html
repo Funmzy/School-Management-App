@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat F.M.S</title>
+    <link rel="icon" href="../public/assets/images/FMS.png" type="image/icon">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="content">
+        <div id="first-side">
+            <div class="top-side">
+                <div><img id="prev" src="https://img.icons8.com/ios/50/000000/left-squared--v1.png" /></div>
+                <p>Leave Chat</p>
+            </div>
+            <div id="Name of Account">
+                <div id="avatar"><img
+                        src="https://img.icons8.com/external-sketchy-juicy-fish/60/000000/external-avatar-user-interface-design-sketchy-sketchy-juicy-fish.png" />
+                </div>
+                <p id="nameofacc" style="font-size: 20px; font-weight: 800; margin: 0 20px;" ></p>
+            </div>
+            <div id="Group-members">
+                <p>Group Members</p>
+            </div>
+        </div>
+        <div id="second-side">
+            <div class="top-side chart-top">
+                <p>Group Chat</p>
+                <div id="left">
+                    <p>messages</p>
+                </div>
+            </div>
+            <div id="chart-content">
+
+            </div>
+            <div id="input-message">
+                <textarea name="message" id="message" wrap="on" placeholder="enter message here..." rows="500"
+                    cols="10"></textarea>
+                <img id="send-icon" src="https://img.icons8.com/metro/26/26e07f/paper-plane.png" />
+            </div>
+
+        </div>
+        <div id="third-side">
+            <div id="left-next">
+                <p>Home</p><img id="prev" src="https://img.icons8.com/ios/50/000000/left-squared--v1.png" />
+            </div>
+            <div><img src="./assets/images/FMS.png" alt=""></div>
+            <div><input  type="search" name="" id="search-ppl" placeholder="search"></div>
+            <div><h4>Share files:</h4></div>
+            <div class="setit"><img id="wr" src="https://img.icons8.com/cute-clipart/64/000000/audio-file.png"/> <p>music</p></div>
+            <div class="setit"><img id="wt" src="https://img.icons8.com/cute-clipart/64/000000/image-file.png"/><p>images</p></div>
+            <div class="setit"><img id="wy" src="https://img.icons8.com/cute-clipart/64/000000/pdf.png"/><p> files</p></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.10.2/qs.min.js"
+        integrity="sha512-ErYZLDi4WRoox2JhOIADWBydTRhMJ0KIXnv5C1GvuY8YooLGapnebaM3iRGhwS6/E9ONXj0MRXp6bhu73sdFkg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER SUBJECT</title>
+    <link rel="stylesheet" href="./subjectinfo.css">
+</head>
+
+<body>
+    <div id="Register">
+        <div id="first-line">
+            <h1>Register</h1>
+        </div>
+        <div id="second-line">
+            <div class="personal-details " id="personal-details">
+                <div><img src="https://img.icons8.com/windows/32/000000/checked-checkbox--v2.png" /></div>
+                <p>Personal details</p>
+            </div>
+            <div class="personal-details personal">
+                <div> <img src="https://img.icons8.com/windows/32/000000/checked-checkbox--v1.png" /></div>
+                <p>Subject details</p>
+            </div>
+            <div class="personal-details" id="oath-details">
+                <div> <img src="https://img.icons8.com/windows/32/000000/checked-checkbox--v2.png" /></div>
+                <p>Oath</p>
+            </div>
+        </div>
+        <div class="lines">
+            <div>
+                <label for="class">Class:</label>
+            </div>
+            <div>
+                <select name="class" id="studentClass">
+                    <option selected disabled>--Pick an Option--</option>
+                    <option value="JSS1">JSS1</option>
+                    <option value="JSS2">JSS2</option>
+                    <option value="JSS3">JSS3</option>
+                    <option value="SSS1">SSS1</option>
+                    <option value="SSS2">SSS2</option>
+                    <option value="SSS3">SSS3</option>
+                </select>
+            </div>
+            <div>
+                <label for="parent-email" style="font-size: 18px;">Parents Email:</label>
+            </div>
+            <div>
+                <input type="email" name="parent-email" id="parent-email" placeholder="@parent-email">
+            </div>
+        </div>
+        <div style="margin-left: 80px; margin-top: 30px; display: flex; gap: 30px; font-size: 18px;">
+            <div><label for="parent-name">Parent Name: </label></div>
+            <div><input type="text" name="parent-name" id="parent-name"></div>
+        </div>
+
+        <div class="line">
+            <form action="" id="subject-select">
+                <div id="side1-table">
+                    <div>
+                        <label for="mathematics">Mathematics</label>
+                        <input type="checkbox" name="mathematics" value="mathematics" id="mathematics">
+                    </div>
+                    <div>
+                        <label for="english">English-language</label>
+                        <input type="checkbox" name="english" value="english" id="english">
+                    </div>
+                    <div>
+                        <label for="C.R.K">C.R.K</label>
+                        <input type="checkbox" name="C.R.K" value="C.R.K" id="C.R.K">
+                    </div>
+                    <div>
+                        <label for="Yoruba">Yoruba</label>
+                        <input type="checkbox" name="Yoruba" value="Yoruba" id="Yoruba">
+                    </div>
+                    <div>
+                        <label for="Biology">Biology</label>
+                        <input type="checkbox" name="Biology" value="Biology" id="Biology">
+                    </div>
+                    <div>
+                        <label for="Physics">Physics</label>
+                        <input type="checkbox" name="Physics" value="Physics" id="Physics">
+                    </div>
+                    <div>
+                        <label for="Chemistry">Chemistry</label>
+                        <input type="checkbox" name="Chemistry" value="Chemistry" id="Chemistry">
+                    </div>
+                    <div>
+                        <label for="Economics">Economics</label>
+                        <input type="checkbox" name="Economics" value= "Economics"id="Economics">
+                    </div>
+                    <div>
+                        <label for="Commerce">Commerce</label>
+                        <input type="checkbox" name="Commerce" value="Commerce" id="Commerce">
+                    </div>
+                    </div>
+                    <div id="side2-table">
+                        <div>
+                            <label for="Basic-Science">Basic-Science</label>
+                            <input type="checkbox" name="Basic-Science" value="Basic-Science" id="Basic-Science">
+                        </div>
+                        <div>
+                            <label for="Business-Studies">Business-Studies</label>
+                            <input type="checkbox" name="Business-Studies" value="Business-Studies" id="Business-Studies">
+                        </div>
+                        <div>
+                            <label for="French">French</label>
+                            <input type="checkbox" name="French" id="French" value="French">
+                        </div>
+                        <div>
+                            <label for="P.H.E">P.H.E</label>
+                            <input type="checkbox" name="P.H.E" id="P.H.E" value="P.H.E">
+                        </div>
+                        <div>
+                            <label for="Social-Studies">Social-Studies</label>
+                            <input type="checkbox" name="Social-Studies" value="Social-Studies" id="Social-Studies">
+                        </div>
+                        <div>
+                            <label for="Computer-Studies">Computer-Studies</label>
+                            <input type="checkbox" name="Computer-Studies" value="Computer-Studies" id="Computer-Studies">
+                        </div>
+                        <div>
+                            <label for="Agricultural-science">Agricultural-science</label>
+                            <input type="checkbox" name="Agricultural-science" value="Agricultural-science" id="Agricultural-science">
+                        </div>
+                    </div>
+                </div>
+                <div id="button-line">
+                    <div class="btn back-btn">
+                        <input type="button" value="back">
+                    </div>
+                    <div class="btn next-btn">
+                        <input type="button" value="next">
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+
+        
+    </div>
+    <script src="./studentinfo.js"></script>
+</body>
+
+</html>

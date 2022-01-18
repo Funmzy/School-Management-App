@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="htmlcss bootstrap, multi level menu, submenu, treeview nav menu examples" />
+	<meta name="description"
+		content="Bootstrap 5 navbar multilevel treeview examples for any type of project, Bootstrap 5" />
+
+	<title>My Dashboard</title>
+	<link rel="stylesheet" href="../TEACHERS/root.css">
+	<link rel="stylesheet" href="../TEACHERS/demo.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+		crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+		crossorigin="anonymous" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+		crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+	<header class="section-header py-4">
+
+	</header> <!-- section-header.// -->
+	<nav>
+		<label for="drop" class="toggle">&#8801; Menu</label>
+		<input type="checkbox" id="drop" />
+		<ul class="menu">
+			<li><a href="./admin.html">Home</a></li>
+   <li><a href="./allparents.html">Parents</a></li>
+   <li><a href="./allteachers.html">Teachers</a></li>
+			<li>
+
+				<!-- First Tier Drop Down -->
+				<label for="drop-2" class="toggle">Students</label>
+				<a href="#">Students &#10507;</a>
+				<input type="checkbox" id="drop-2" />
+				<ul>
+					<li>
+
+						<!-- Second Tier Drop Down -->
+						<label for="drop-3" class="toggle"></label>
+						<a href="#">junior &#10503;</a>
+						<input type="checkbox" id="drop-3" />
+						<ul>
+							<li><a href="./jss1.html">JSS1</a></li>
+							<li><a href="./jss2.html">JSS2</a></li>
+							<li><a href="./jss3.html">JSS3</a></li>
+						</ul>
+					</li>
+					<li>
+
+						<!-- Second Tier Drop Down -->
+						<label for="drop-3" class="toggle"></label>
+						<a href="#">senior &#10503;</a>
+						<input type="checkbox" id="drop-3" />
+						<ul>
+							<li><a href="./ss1.html">SSS1</a></li>
+							<li><a href="./ss2.html">SSS2</a></li>
+							<li><a href="./ss3.html">SSS3</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+   <li><a href="#" id="chat">Chat Live</a></li>
+			<li><a href="../LOGIN/login.html">logout</a></li>
+		</ul>
+	</nav>
+<main>
+
+      <div class='main-container'>
+        <i>
+          <div class='search-container'>
+            <form action='#'>
+              <input
+                type='text'
+                placeholder='search'
+                name='search'
+              ></input>
+              <button type='submit'>
+                <i class='fa fa-search'></i>
+              </button>
+            </form>
+          </div>
+          <h1 id="content">
+          </h1>
+        </i>
+
+<div class="container table-responsive py-5"> 
+<table class="table table-bordered table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Teacher's Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone no</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Address</th>
+      <th scope="col">Subjects</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody id="table">
+
+  </tbody>
+</table>
+</div>
+      </div>
+</main>
+
+
+	<footer>
+		<h6 class="cells">2021 copyright FMS Academy</h6>
+		<h6 class="cells"><a href="#">Privacy</a></h6>
+		<h6 class="cells"><a href="#">Contact</a></h6>
+	</footer>
+	<script src="./allteachers.js"></script>
+</body>
+
+</html>

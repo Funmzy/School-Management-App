@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #F0F0F0 ;
+}
+#Register{
+    background-color: white;
+    width: 80%;
+    margin: 0 auto; 
+    height: 100vh;  
+}
+#first-line{
+    margin-left: 30px;
+}
+#second-line{
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    border: 1px solid grey;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding: none;
+    padding-left: 30px;
+    height: 40px;
+    box-sizing: border-box;
+    font-weight: 200;
+}
+.personal-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.personal{
+    background-color: #5489e4;
+    border-bottom: 5px solid blue;
+}
+
+#subject-details:hover{
+    cursor:pointer;
+}
+#oath-details:hover{
+    cursor:pointer;
+}
+
+.lines{
+    margin-left: 30px;
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+}
+input[type='email'], input[type='text'], input[type='password'], input[type='number'],input[type='date'], select{
+    background-color: #F0F0F0;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.long-box input{
+    width: 1000px;
+}
+#last-text {
+    margin-left: 30px;
+}
+#button-line{
+    margin-right: 40px;
+    display: flex;
+    gap: 30px;
+    float: right;
+}
+.btn input{
+    width: 130px;
+    height:50px;
+    background-color: #5489e4;
+    border: none;
+    color: white;
+    
+}
+.btn input:hover{
+    cursor: pointer; 
+    background-color: #3960a3;  
+}
+.text-box i{
+    margin-left: -35px;
+    cursor: pointer;
+}
+

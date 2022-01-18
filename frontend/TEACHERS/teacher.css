@@ -1,0 +1,128 @@
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li{
+		position: relative;
+	}
+	.dropdown-menu .submenu{ 
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.dropdown-menu .submenu-left{ 
+		right:100%; left:auto;
+	}
+
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+
+.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+}
+
+}	
+/* ============ small devices .end// ============ */
+
+/* general styles */
+
+/* for the modal */
+.table-content {
+        width: 450px;
+        margin: 50px auto;
+        text-align: center;
+    }
+
+    td {
+        width: 100px;
+    }
+
+
+
+.main {
+  background: white;
+}
+
+.modal {
+  background-color: #35558d;
+}
+
+ul {
+  margin: 2px;
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+ol {
+  margin: 15px;
+  border: solid 2px #35558d;
+  list-style: none;
+  text-align: center;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+ul > li {
+  margin-bottom: 7px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+#show {
+  box-shadow: 5px 10px 8px #888888;
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+  color: black;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: auto;
+  border-top: 20px solid #35558d;
+  background: whitesmoke;
+  
+}
+
+.card-body{
+  background-color: #35558d;
+  color: whitesmoke;
+}
+
+.card-title {
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+.card-img-top{
+    border-radius: 50%;
+}
+
+

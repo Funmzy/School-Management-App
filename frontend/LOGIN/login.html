@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="icon" href="../assets/images/FMS.png" type="image/icon type">
+    <link rel="stylesheet" href="./login.css">
+</head>
+
+<body>
+    <div id="login-container">
+        <div>
+            <div id="logo">
+                <img src="../assets/images/FMS.png" alt="" />
+            </div>
+            <div>
+                <h1 id="FMS">F.M.S</h1>
+                <h2 id="academy">ACADEMY</h2>
+            </div>
+        </div>
+        <div id="side-login">
+            <div id="login-form1">
+                <form action="" id="real-form">
+                    <div id="first-line">
+                        <img src="../assets/images/FMS.png" alt="" />
+                        <h1>F.M.S</h1>
+                        <h3>ACADEMY</h3>
+                    </div>
+                    <div id="email">
+                        <div>
+                            <label htmlFor="email">Email</label>
+                        </div>
+                        <div>
+                            <input id="log-email" type="email" name=""  />
+                        </div>
+                    </div>
+                    <div id="password">
+                        <div>
+                            <label htmlFor="Password">Password</label>
+                        </div>
+                        <div class="bone">
+                            <input id="log-password" type="password" name=""  />
+                        </div>
+                    </div>
+                    <div>
+                        <input id="log-button" type="button" value="Login" />
+                    </div>
+                    <div>
+                        <p>Don't have an account yet? <a id="register-button" href="../REGISTER/register.html" style="color: blue; text-decoration: none;" target="_self"> Register</a> here 
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div id="show-err"></div>
+
+        </div>
+    </div>
+    <script src="./login.js" async></script>
+</body>
+
+</html>
